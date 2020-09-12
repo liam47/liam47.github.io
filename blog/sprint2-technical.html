@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <h1>Example:</h1>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
   <style>
+    h5 {
+      font-family: "Open Sans";
+    }
+    h1 {
+      font-family: "Open Sans";
+      font-size: medium;
+    }
+    li {
+      font-family: "Open Sans";
+    }
+    div {
+      font-family: "Open Sans";
+    }
     .injected-text {
-      margin-bottom: -25px;
+      margin-bottom: -35px;
       text-align: center;
     }
   
@@ -16,11 +31,11 @@
   
     .yellow-box {
       background-color: yellow;
-      padding: 10px;
+      padding: 20px;
     }
   
     .red-box {
-      background-color: crimson;
+      background-color: red;
       color: #fff;
       padding: 20px;
     }
@@ -28,12 +43,41 @@
     .blue-box {
       background-color: blue;
       color: #fff;
-      padding: 10px;
+      padding: 20px;
     }
   </style>
-  <h5 class="injected-text">margin</h5>
+  <h5 class="injected-text">Margin</h5>
   
   <div class="box yellow-box">
-    <h5 class="box red-box">padding</h5>
-    <h5 class="box blue-box">padding</h5>
+    <h5 class="box red-box">Padding</h5>
+    <h5 class="box blue-box">Padding</h5>
+  </div>
+
+  <ul>
+    <li>The yellow (outter box) margin adds spacing from an element.
+    In this case, the margin creates space from the red and blue paddings.
+    </li>
+    <li>
+      The red and blue (inner boxes) paddings creates space within the two elements.
+    In this case, the word "padding" is centred and spaced from the borders.
+    </li>
+    <li>
+      The black outlines are called "borders". 
+      With borders, users are able to specify three things:
+      <ol>
+        <li>
+          Thickness
+        </li>
+        <li>
+          Style
+        </li>
+        <li>
+          
+        </li>
+      </ol>
+    </li>
+  </ul>
+
+  <div>
+    Refernce: <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a>
   </div>
