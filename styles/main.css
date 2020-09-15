@@ -1,1 +1,11 @@
-<link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
+<style>
+p {
+font-family: "Open Sans";
+}
+h1 {
+font-family: "Open Sans";
+}
+li {
+font-family: "Open Sans";
+}
